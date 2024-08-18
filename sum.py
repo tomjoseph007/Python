@@ -1,5 +1,11 @@
-x = int(input("enter firt number :"))
-y = int(input("enter second number :"))
+def add_two_numbers(x, y):
+    return x + y
 
-result = x + y 
-print("sum = ", result)
+def main():
+    x = int(input("Enter first number: "))
+    y = int(input("Enter second number: "))
+    result = add_two_numbers(x, y)
+    print("Sum =", result)
+
+if __name__ == "__main__":
+    main()
